@@ -1,0 +1,126 @@
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.dashboard h1 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.dashboard h2 {
+    color: #34495e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.indicators {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.indicator-card {
+    background: white;
+    border-left: 4px solid #3498db;
+    padding: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.indicator-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.indicator-value {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.indicator-card.warning {
+    border-left-color: #f39c12;
+}
+
+.indicator-card.danger {
+    border-left-color: #e74c3c;
+}
+
+.section {
+    background: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.table th {
+    background-color: #ecf0f1;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.badge-A,
+.badge-B,
+.badge-C {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.badge-A {
+    background-color: #27ae60;
+    color: white;
+}
+
+.badge-B {
+    background-color: #f39c12;
+    color: white;
+}
+
+.badge-C {
+    background-color: #95a5a6;
+    color: white;
+}
+
+.error {
+    color: #e74c3c;
+    padding: 1rem;
+    background-color: #fadbd8;
+    border-left: 4px solid #e74c3c;
+    border-radius: 4px;
+}

@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+.env
+.env.local
+.DS_Store
+.git
+README.md
+.gitignore
+docker-compose.yml
+.next
+tests
+coverage
+.eslintrc
+.prettierrc
